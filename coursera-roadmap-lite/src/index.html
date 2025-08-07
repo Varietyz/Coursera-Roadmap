@@ -1,11 +1,11 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://banes-lab.com; style-src 'self' 'unsafe-inline'; script-src 'self';">
   <title>Course Roadmap</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style/style.css"/>
 </head>
 <body>
   <div class="container">
@@ -29,20 +29,17 @@
           </tr>
         </thead>
         <tbody id="courseList">
-          <!-- JS will populate this -->
         </tbody>
       </table>
     </div>
   </div>
 
-  <!-- Context Menu -->
   <div id="contextMenu" class="context-menu">
     <div class="context-menu-item" id="addCourseBtn">
       ➕ Add New Course
     </div>
   </div>
 
-  <!-- Add Course Modal -->
   <div id="addCourseModal" class="modal">
     <div class="modal-content">
       <h2>Add New Course</h2>
@@ -67,7 +64,6 @@
           </select>
         </div>
         <div class="button-group">
-          <button type="button" class="btn btn-secondary" onclick="closeAddCourseModal()">Cancel</button>
           <button type="submit" class="btn btn-primary">Add Course</button>
         </div>
       </form>
@@ -75,6 +71,5 @@
   </div>
 
   <script type="module" src="controller/app.js"></script>
-
 </body>
 </html>

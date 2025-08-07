@@ -1,3 +1,4 @@
+// src/data/courseService.js
 let courseList = [];
 let nextId = 3;
 let courseStorage = [];

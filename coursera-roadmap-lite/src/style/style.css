@@ -1,3 +1,4 @@
+ /* style/style.css */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +13,7 @@ body {
   color: #ffffff;
   min-height: 100vh;
   position: relative;
-  font-size: 14px; /* Reduced base font size */
+  font-size: 14px;
 }
 
 body::before {
@@ -29,19 +30,19 @@ body::before {
 .container {
   max-width: 1100px;
   margin: auto;
-  padding: 1.5rem; /* Reduced padding */
+  padding: 1.5rem;
   position: relative;
   z-index: 1;
 }
 
 .header {
   text-align: center;
-  margin-bottom: 2rem; /* Reduced margin */
-  padding: 1.5rem 0; /* Reduced padding */
+  margin-bottom: 2rem;
+  padding: 1.5rem 0;
 }
 
 .logo {
-  width: 150px; /* Smaller logo */
+  width: 150px;
   height: auto;
   margin-bottom: 0.75rem;
   border-radius: 12px;
@@ -53,7 +54,7 @@ body::before {
 }
 
 h1 {
-  font-size: 1.8rem; /* Reduced from 2.5rem */
+  font-size: 1.8rem;
   background: linear-gradient(145deg, #cea555, #f4d03f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -64,13 +65,13 @@ h1 {
 
 .subtitle {
   color: #cea555;
-  font-size: 0.9rem; /* Reduced from 1.1rem */
+  font-size: 0.9rem;
   opacity: 0.9;
 }
 
 .summary-box {
   background: linear-gradient(145deg, #1a1a1a, #222222);
-  padding: 1.5rem; /* Reduced padding */
+  padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 16px;
   border: 1px solid rgba(206, 165, 85, 0.2);
@@ -78,13 +79,13 @@ h1 {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Smaller min width */
-  gap: 1rem; /* Reduced gap */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
 }
 
 .summary-item {
   text-align: center;
-  padding: 0.75rem; /* Reduced padding */
+  padding: 0.75rem;
   background: rgba(206, 165, 85, 0.1);
   border-radius: 12px;
   border: 1px solid rgba(206, 165, 85, 0.2);
@@ -98,7 +99,7 @@ h1 {
 
 .summary-item strong {
   color: #cea555;
-  font-size: 0.75rem; /* Reduced from 0.9rem */
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   display: block;
@@ -106,7 +107,7 @@ h1 {
 }
 
 .summary-value {
-  font-size: 1.4rem; /* Reduced from 1.8rem */
+  font-size: 1.4rem;
   font-weight: bold;
   color: #ffffff;
 }
@@ -130,20 +131,20 @@ table {
 th {
   background: linear-gradient(145deg, #cea555, #b8944d);
   color: #101010;
-  padding: 0.8rem 1rem; /* Reduced padding */
+  padding: 0.8rem 1rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 0.75rem; /* Reduced from 0.9rem */
+  font-size: 0.75rem;
   border-bottom: 2px solid rgba(16, 16, 16, 0.2);
 }
 
 td {
-  padding: 0.8rem 1rem; /* Reduced padding */
+  padding: 0.8rem 1rem;
   border-bottom: 1px solid rgba(206, 165, 85, 0.1);
   color: #ffffff;
   transition: all 0.3s ease;
-  font-size: 0.85rem; /* Added smaller font size for table data */
+  font-size: 0.85rem;
 }
 
 tr.completed {
@@ -169,16 +170,16 @@ tr:hover {
 }
 
 input[type="checkbox"] {
-  width: 16px; /* Reduced size */
+  width: 16px;
   height: 16px;
   accent-color: #cea555;
   cursor: pointer;
-  transform: scale(1.1); /* Reduced scale */
+  transform: scale(1.1);
 }
 
 .status-indicator {
   display: inline-block;
-  width: 6px; /* Reduced size */
+  width: 6px;
   height: 6px;
   border-radius: 50%;
 }
@@ -191,13 +192,12 @@ input[type="checkbox"] {
   background: #ff9800;
 }
 
-/* Context Menu Styles */
 .context-menu {
   position: fixed;
   background: linear-gradient(145deg, #1a1a1a, #222222);
   border: 1px solid rgba(206, 165, 85, 0.3);
   border-radius: 8px;
-  padding: 0.25rem 0; /* Reduced padding */
+  padding: 0.25rem 0;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
   z-index: 1000;
   display: none;
@@ -206,12 +206,12 @@ input[type="checkbox"] {
 }
 
 .context-menu-item {
-  padding: 0.5rem 1rem; /* Reduced padding */
+  padding: 0.5rem 1rem;
   cursor: pointer;
   color: #ffffff;
   transition: all 0.2s ease;
   white-space: nowrap;
-  font-size: 0.85rem; /* Added smaller font size */
+  font-size: 0.85rem;
 }
 
 .context-menu-item:hover {
@@ -219,7 +219,6 @@ input[type="checkbox"] {
   color: #cea555;
 }
 
-/* Modal Styles */
 .modal {
   display: none;
   position: fixed;
@@ -236,41 +235,41 @@ input[type="checkbox"] {
 .modal-content {
   background: linear-gradient(145deg, #1a1a1a, #222222);
   margin: 10% auto;
-  padding: 1.5rem; /* Reduced padding */
+  padding: 1.5rem;
   border: 1px solid rgba(206, 165, 85, 0.3);
   border-radius: 16px;
   width: 90%;
-  max-width: 450px; /* Smaller modal */
+  max-width: 450px;
   box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5);
 }
 
 .modal h2 {
   color: #cea555;
-  margin-bottom: 1rem; /* Reduced margin */
+  margin-bottom: 1rem;
   text-align: center;
-  font-size: 1.3rem; /* Reduced font size */
+  font-size: 1.3rem;
 }
 
 .form-group {
-  margin-bottom: 1rem; /* Reduced margin */
+  margin-bottom: 1rem;
 }
 
 .form-group label {
   display: block;
-  margin-bottom: 0.4rem; /* Reduced margin */
+  margin-bottom: 0.4rem;
   color: #cea555;
   font-weight: 500;
-  font-size: 0.85rem; /* Added smaller font size */
+  font-size: 0.85rem;
 }
 
 .form-group input, .form-group select {
   width: 100%;
-  padding: 0.6rem; /* Reduced padding */
+  padding: 0.6rem;
   border: 1px solid rgba(206, 165, 85, 0.3);
   border-radius: 8px;
   background: rgba(24, 24, 24, 0.8);
   color: #ffffff;
-  font-size: 0.9rem; /* Reduced font size */
+  font-size: 0.9rem;
 }
 
 .form-group input:focus, .form-group select:focus {
@@ -281,17 +280,17 @@ input[type="checkbox"] {
 
 .button-group {
   display: flex;
-  gap: 0.75rem; /* Reduced gap */
+  gap: 0.75rem;
   justify-content: flex-end;
-  margin-top: 1.5rem; /* Reduced margin */
+  margin-top: 1.5rem;
 }
 
 .btn {
-  padding: 0.6rem 1.2rem; /* Reduced padding */
+  padding: 0.6rem 1.2rem;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 0.9rem; /* Reduced font size */
+  font-size: 0.9rem;
   font-weight: 500;
   transition: all 0.3s ease;
 }
@@ -316,12 +315,11 @@ input[type="checkbox"] {
   background: rgba(206, 165, 85, 0.1);
 }
 
-/* Loading and Empty States */
 .loading {
   text-align: center;
   color: #cea555;
-  font-size: 0.9rem; /* Reduced font size */
-  padding: 1.5rem; /* Reduced padding */
+  font-size: 0.9rem;
+  padding: 1.5rem;
 }
 
 @keyframes pulse {
@@ -336,8 +334,8 @@ input[type="checkbox"] {
 
 .empty-state {
   text-align: center;
-  padding: 1.5rem; /* Reduced padding */
+  padding: 1.5rem;
   color: rgba(206, 165, 85, 0.7);
   font-style: italic;
-  font-size: 0.9rem; /* Added smaller font size */
+  font-size: 0.9rem;
 }

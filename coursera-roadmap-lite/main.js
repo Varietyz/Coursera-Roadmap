@@ -1,8 +1,9 @@
+// main.js
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const fs = require('fs');
 
-const DATA_FILE = path.join(__dirname, 'src/courses.json');
+const DATA_FILE = path.join(__dirname, 'src/data/courses.json');
 
 function createWindow() {
   const win = new BrowserWindow({

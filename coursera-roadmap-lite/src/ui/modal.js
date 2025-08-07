@@ -1,3 +1,4 @@
+// src/ui/modal.js
 import { addCourse } from '../data/courseService.js';
 import { renderCourses, renderSummary } from './render.js';
 

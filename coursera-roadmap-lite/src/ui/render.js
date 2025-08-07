@@ -1,3 +1,4 @@
+// src/ui/render.js
 import { modifyAndSave } from '../data/courseService.js';
 
 export function renderCourses(courseList) {

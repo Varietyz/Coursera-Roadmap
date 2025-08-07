@@ -8,11 +8,11 @@ Track learning courses from various providers with completion status and basic m
 
 ## Features
 
-- Add courses via right-click context menu
-- Toggle completion status with checkboxes
-- Auto-save to JSON file
-- Summary dashboard (total courses, completed, cost)
-- Keyboard shortcuts (Ctrl+N to add, ESC to close)
+- Add courses via right-click context menu  
+- Toggle completion status with checkboxes  
+- Auto-save to JSON file  
+- Summary dashboard (total courses, completed, cost)  
+- Keyboard shortcuts (Ctrl+N to add, ESC to close)  
 
 ## Usage
 
@@ -22,13 +22,25 @@ npm start
 ```
 
 Right-click anywhere to add courses. Click checkboxes to mark complete.
+Data automatically saves on every change.
 
 ## Files
-
-- `main.js`, `preload.js` - Electron main processes
-- `roadmap.js` - App logic and UI
-- `courses.json` - Data storage
-- `index.html` - Interface
-- `style.css` - Dark theme
-
-Data automatically saves on every change.
+```
+├─ 📂 coursera-roadmap-lite
+│   ├─ 📜 main.js
+│   ├─ 🔧 package.json
+│   ├─ 📜 preload.js
+│   └─ 📂 src
+│       ├─ 📂 controller
+│       │   └─ 📜 app.js
+│       ├─ 📂 data
+│       │   ├─ 🔧 courses.json
+│       │   └─ 📜 courseService.js
+│       ├─ 🌐 index.html
+│       ├─ 📂 style
+│       │   └─ 🎨 style.css
+│       └─ 📂 ui
+│           ├─ 📜 modal.js
+│           └─ 📜 render.js
+└─ 📘 README.md
+```

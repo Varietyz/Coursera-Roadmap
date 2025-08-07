@@ -1,3 +1,4 @@
+// src/controller/app.js
 import { loadCourses, getCourses } from '../data/courseService.js';
 import { renderCourses, renderSummary } from '../ui/render.js';
 import { openAddCourseModal, closeAddCourseModal, setupAddCourseForm } from '../ui/modal.js';
@@ -40,11 +41,10 @@ async function initApp() {
     }
   });
 
-  // Auto-reload every 60s
   setInterval(() => {
     const list = getCourses();
     if (list.length > 0) loadCourses();
-  }, 60000);
+  }, 30000);
 }
 
 document.addEventListener('DOMContentLoaded', initApp);

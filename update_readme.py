@@ -1,7 +1,7 @@
 import os
 
 
-def save_tree_structure(start_path, exclude_entries=None, output_file='Navigation.md'):
+def save_tree_structure(start_path, exclude_entries=None, output_file='README.md'):
 	"""
 	Recursively generates a tree structure of the directory contents starting from `start_path`
 	and writes the output to a Markdown file wrapped in code fences.
@@ -23,14 +23,13 @@ def save_tree_structure(start_path, exclude_entries=None, output_file='Navigatio
 			'.venv',
 			'Image-ExifTool-13.26',
 			'resources',
-			'save_structure.py',
    			'Navigation.md',
 			'.gitignore',
 			'.gitattributes',
 			'package-lock.json',
+   			'update_readme.py',
 		]
 
-	# Mapping of file extensions to emojis
 	file_emojis = {
 		'.py': '🐍',
 		'.js': '📜',
@@ -59,7 +58,6 @@ def save_tree_structure(start_path, exclude_entries=None, output_file='Navigatio
 		"""
 		filename_lower = filename.lower()
 
-		# Mapping for text patterns (keys can be substrings)
 		text_mapping = {
 			'readme': '📘',
 			'license': '⚖️',
@@ -76,14 +74,13 @@ def save_tree_structure(start_path, exclude_entries=None, output_file='Navigatio
 			'sponsor': '💵',
 			'finished': '✅',
 			'bot': '🤖',
+			'data': '📊',
 		}
 
-		# Check if any text pattern is present in the filename
 		for pattern, emoji in text_mapping.items():
 			if pattern in filename_lower:
 				return emoji
 
-		# Extension-based mapping (assumes file_emojis is defined in the outer scope)
 		ext = os.path.splitext(filename)[1].lower()
 		return file_emojis.get(ext, '📄')
 
@@ -105,7 +102,6 @@ def save_tree_structure(start_path, exclude_entries=None, output_file='Navigatio
 
 		tree_lines = []
 		entries = os.listdir(directory)
-		# Filter out entries that are exactly in the exclusion list
 		entries = [entry for entry in entries if entry not in exclude_entries]
 		total_entries = len(entries)
 
@@ -125,12 +121,36 @@ def save_tree_structure(start_path, exclude_entries=None, output_file='Navigatio
 
 		return tree_lines
 
-	# Generate the directory structure
 	directory_structure = walk_directory(start_path)
-	# Wrap the structure in Markdown code fences (```)
-	markdown_output = '```\n' + '\n'.join(directory_structure) + '\n```'
 
-	# Write the Markdown output to the specified file using UTF-8 encoding
+	markdown_output = """# 📚 Course Roadmap Tracker
+
+Simple Electron desktop app for tracking personal course progress.
+
+## Purpose
+
+Track learning courses from various providers with completion status and basic metrics.
+
+## Features
+
+- Add courses via right-click context menu  
+- Toggle completion status with checkboxes  
+- Auto-save to JSON file  
+- Summary dashboard (total courses, completed, cost)  
+- Keyboard shortcuts (Ctrl+N to add, ESC to close)  
+
+## Usage
+
+```bash
+npm install
+npm start
+```
+
+Right-click anywhere to add courses. Click checkboxes to mark complete.
+Data automatically saves on every change.\n
+## Files
+```\n""" + '\n'.join(directory_structure) + '\n```'
+
 	with open(output_file, 'w', encoding='utf-8') as f:
 		f.write(markdown_output)
 
