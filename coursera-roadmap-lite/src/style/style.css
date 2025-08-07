@@ -339,3 +339,21 @@ input[type="checkbox"] {
   font-style: italic;
   font-size: 0.9rem;
 }
+
+.course-link {
+  color: #e4c722;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.course-link:hover {
+  color: #a88100;
+  text-decoration: underline;
+}
+
+.course-link::after {
+  content: " 🔗";
+  font-size: 0.9em;
+  opacity: 0.7;
+}

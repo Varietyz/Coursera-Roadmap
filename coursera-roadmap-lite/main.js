@@ -9,12 +9,14 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1280,
     height: 1000,
+    icon: path.join(__dirname, 'src/assets/logo.png'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
       nodeIntegration: false
     }
   });
+
 
   win.loadFile('src/index.html');
 }

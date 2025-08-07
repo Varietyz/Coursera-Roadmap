@@ -33,7 +33,13 @@ export function renderCourses(courseList) {
 
     tr.innerHTML = `
       <td></td>
-      <td><strong>${course.title}</strong></td>
+      <td>
+        <strong>
+          ${course.url
+            ? `<a href="${course.url}" target="_blank" rel="noopener noreferrer" class="course-link">${course.title}</a>`
+            : course.title}
+        </strong>
+      </td>
       <td>${course.provider}</td>
       <td>€${course.cost.toFixed(2)}</td>
       <td>${course.completedDate || '-'}</td>

@@ -33,6 +33,7 @@ export function addCourse(course) {
     ...course,
     completedDate: course.status === 'completed' ? new Date().toISOString().split("T")[0] : null
   };
+
   modifyAndSave(() => {
     courseList.push(newCourse);
   });

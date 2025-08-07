@@ -5,6 +5,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "completed",
+    "url": "https://www.coursera.org/learn/google-introduction-to-ai/home/info",
     "completedDate": "2025-08-06"
   },
   {
@@ -13,6 +14,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "completed",
+    "url": "https://www.coursera.org/learn/google-maximize-productivity-with-ai-tools/home/info",
     "completedDate": "2025-08-06"
   },
   {
@@ -21,6 +23,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "completed",
+    "url": "https://www.coursera.org/learn/google-discover-the-art-of-prompting/home/info",
     "completedDate": "2025-08-06"
   },
   {
@@ -29,6 +32,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "completed",
+    "url": "https://www.coursera.org/learn/google-use-ai-responsibly/home/info",
     "completedDate": "2025-08-06"
   },
   {
@@ -37,6 +41,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "completed",
+    "url": "https://www.coursera.org/learn/google-stay-ahead-of-the-ai-curve/home/info",
     "completedDate": "2025-08-06"
   },
   {
@@ -45,6 +50,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "completed",
+    "url": "https://www.coursera.org/specializations/ai-essentials-google",
     "completedDate": "2025-08-06"
   },
   {
@@ -53,6 +59,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "completed",
+    "url": "https://www.coursera.org/learn/google-start-writing-prompts-like-a-pro/home/info",
     "completedDate": "2025-08-06"
   },
   {
@@ -61,6 +68,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "completed",
+    "url": "https://www.coursera.org/learn/google-design-prompts-for-everyday-work-tasks/home/info",
     "completedDate": "2025-08-06"
   },
   {
@@ -69,6 +77,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/google-speed-up-data-analysis-and-presentation-building/home/info",
     "completedDate": null
   },
   {
@@ -77,6 +86,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/google-use-ai-as-a-creative-or-expert-partner",
     "completedDate": null
   },
   {
@@ -85,6 +95,7 @@
     "provider": "Google",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/specializations/prompting-essentials-google",
     "completedDate": null
   },
   {
@@ -93,6 +104,7 @@
     "provider": "Deep Teaching Solutions",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/learning-how-to-learn",
     "completedDate": null
   },
   {
@@ -101,6 +113,7 @@
     "provider": "Deep Teaching Solutions",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/learning-how-to-learn",
     "completedDate": null
   },
   {
@@ -109,6 +122,7 @@
     "provider": "Deep Teaching Solutions",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/learning-how-to-learn",
     "completedDate": null
   },
   {
@@ -117,14 +131,16 @@
     "provider": "Deep Teaching Solutions",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/learning-how-to-learn",
     "completedDate": null
   },
   {
     "id": 16,
-    "title": "Learning How to Learn: Powerful mental tools to help you master tough subjects",
+    "title": "Learning How to Learn: Powerful mental tools to help you master tough subjects [Specialized]",
     "provider": "Deep Teaching Solutions",
     "cost": 41,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/learning-how-to-learn",
     "completedDate": null
   },
   {
@@ -133,6 +149,7 @@
     "provider": "Board Infinity",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/machine-learning-with-implementation-in-java",
     "completedDate": null
   },
   {
@@ -141,6 +158,7 @@
     "provider": "Board Infinity",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/machine-learning-with-implementation-in-java",
     "completedDate": null
   },
   {
@@ -149,6 +167,7 @@
     "provider": "Board Infinity",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/machine-learning-with-implementation-in-java",
     "completedDate": null
   },
   {
@@ -157,6 +176,7 @@
     "provider": "Board Infinity",
     "cost": 41,
     "status": "to-do",
+    "url": "https://www.coursera.org/learn/machine-learning-with-implementation-in-java",
     "completedDate": null
   },
   {
@@ -165,6 +185,7 @@
     "provider": "Vanderbilt University",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/specializations/prompt-engineering",
     "completedDate": null
   },
   {
@@ -173,6 +194,7 @@
     "provider": "Vanderbilt University",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/specializations/prompt-engineering",
     "completedDate": null
   },
   {
@@ -181,6 +203,7 @@
     "provider": "Vanderbilt University",
     "cost": 0,
     "status": "to-do",
+    "url": "https://www.coursera.org/specializations/prompt-engineering",
     "completedDate": null
   },
   {
@@ -189,6 +212,52 @@
     "provider": "Vanderbilt University",
     "cost": 41,
     "status": "to-do",
+    "url": "https://www.coursera.org/specializations/prompt-engineering",
+    "completedDate": null
+  },
+  {
+    "id": 25,
+    "title": "Generative AI Tools for Programming",
+    "provider": "Indian Institute of Technology Guwahati",
+    "cost": 0,
+    "status": "to-do",
+    "url": "https://www.coursera.org/learn/programming-with-generative-ai",
+    "completedDate": null
+  },
+  {
+    "id": 26,
+    "title": "Undertaking a Machine Learning Project using GitHub Copilot",
+    "provider": "Indian Institute of Technology Guwahati",
+    "cost": 0,
+    "status": "to-do",
+    "url": "https://www.coursera.org/learn/programming-with-generative-ai",
+    "completedDate": null
+  },
+  {
+    "id": 27,
+    "title": "Solving Problems using GitHub Copilot",
+    "provider": "Indian Institute of Technology Guwahati",
+    "cost": 0,
+    "status": "to-do",
+    "url": "https://www.coursera.org/learn/programming-with-generative-ai",
+    "completedDate": null
+  },
+  {
+    "id": 28,
+    "title": "Programming with Generative AI [Specialized]",
+    "provider": "Indian Institute of Technology Guwahati",
+    "cost": 41,
+    "status": "to-do",
+    "url": "https://www.coursera.org/learn/programming-with-generative-ai",
+    "completedDate": null
+  },
+  {
+    "id": 29,
+    "title": "ChatGPT Prompt Engineering for Developers",
+    "provider": "DeepLearning.AI",
+    "cost": 0,
+    "status": "to-do",
+    "url": "https://www.coursera.org/learn/chatgpt-prompt-engineering-for-developers-project/home/info",
     "completedDate": null
   }
 ]
