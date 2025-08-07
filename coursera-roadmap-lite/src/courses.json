@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to AI",
+    "provider": "Google",
+    "cost": 0,
+    "status": "completed",
+    "completedDate": "2025-08-06"
+  },
+  {
+    "id": 2,
+    "title": "Maximize Productivity With AI Tools",
+    "provider": "Google",
+    "cost": 0,
+    "status": "completed",
+    "completedDate": "2025-08-06"
+  },
+  {
+    "id": 3,
+    "title": "Discover the Art of Prompting",
+    "provider": "Google",
+    "cost": 0,
+    "status": "completed",
+    "completedDate": "2025-08-06"
+  },
+  {
+    "id": 4,
+    "title": "Use AI Responsibly",
+    "provider": "Google",
+    "cost": 0,
+    "status": "completed",
+    "completedDate": "2025-08-06"
+  },
+  {
+    "id": 5,
+    "title": "Stay Ahead of the AI Curve",
+    "provider": "Google",
+    "cost": 0,
+    "status": "completed",
+    "completedDate": "2025-08-06"
+  },
+  {
+    "id": 6,
+    "title": "Google AI Essentials [Specialized]",
+    "provider": "Google",
+    "cost": 0,
+    "status": "completed",
+    "completedDate": "2025-08-06"
+  },
+  {
+    "id": 7,
+    "title": "Start Writing Prompts like a Pro",
+    "provider": "Google",
+    "cost": 0,
+    "status": "completed",
+    "completedDate": "2025-08-06"
+  },
+  {
+    "id": 8,
+    "title": "Design Prompts for Everyday Work Tasks",
+    "provider": "Google",
+    "cost": 0,
+    "status": "completed",
+    "completedDate": "2025-08-06"
+  },
+  {
+    "id": 9,
+    "title": "Speed Up Data Analysis and Presentation Building",
+    "provider": "Google",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 10,
+    "title": "Use AI as a Creative or Expert Partner",
+    "provider": "Google",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 11,
+    "title": "Google Prompting Essentials [Specialized]",
+    "provider": "Google",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 12,
+    "title": "What is Learning?",
+    "provider": "Deep Teaching Solutions",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 13,
+    "title": "Chunking",
+    "provider": "Deep Teaching Solutions",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 14,
+    "title": "Procrastination and Memory",
+    "provider": "Deep Teaching Solutions",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 15,
+    "title": "Renaissance Learning and Unlocking Your Potential",
+    "provider": "Deep Teaching Solutions",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 16,
+    "title": "Learning How to Learn: Powerful mental tools to help you master tough subjects",
+    "provider": "Deep Teaching Solutions",
+    "cost": 41,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 17,
+    "title": "Data Handling & Preprocessing",
+    "provider": "Board Infinity",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 18,
+    "title": "Deep Learning in Java",
+    "provider": "Board Infinity",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 19,
+    "title": "Specialized Libraries & Techniques",
+    "provider": "Board Infinity",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 20,
+    "title": "Machine Learning with Implementation in Java [Specialized]",
+    "provider": "Board Infinity",
+    "cost": 41,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 21,
+    "title": "Prompt Engineering for ChatGPT",
+    "provider": "Vanderbilt University",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 22,
+    "title": "ChatGPT Advanced Data Analysis",
+    "provider": "Vanderbilt University",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 23,
+    "title": "Trustworthy Generative AI",
+    "provider": "Vanderbilt University",
+    "cost": 0,
+    "status": "to-do",
+    "completedDate": null
+  },
+  {
+    "id": 24,
+    "title": "Prompt Engineering Specialization [Specialized]",
+    "provider": "Vanderbilt University",
+    "cost": 41,
+    "status": "to-do",
+    "completedDate": null
+  }
+]

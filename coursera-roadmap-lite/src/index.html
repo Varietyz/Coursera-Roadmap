@@ -1,0 +1,80 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Roadmap</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://banes-lab.com/assets/images/banes_lab/700px_Main_Animated.gif" alt="Banes Lab Logo" class="logo" loading="lazy">
+      <h1>Course Roadmap</h1>
+      <p class="subtitle">Track learning journey • Right-click to add courses</p>
+    </div>
+    
+    <div id="summary" class="summary-box"></div>
+    
+    <div class="table-container">
+      <table id="courseTable">
+        <thead>
+          <tr>
+            <th>Status</th>
+            <th>Course Title</th>
+            <th>Provider</th>
+            <th>Cost (€)</th>
+            <th>Completed Date</th>
+          </tr>
+        </thead>
+        <tbody id="courseList">
+          <!-- JS will populate this -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Context Menu -->
+  <div id="contextMenu" class="context-menu">
+    <div class="context-menu-item" id="addCourseBtn">
+      ➕ Add New Course
+    </div>
+  </div>
+
+  <!-- Add Course Modal -->
+  <div id="addCourseModal" class="modal">
+    <div class="modal-content">
+      <h2>Add New Course</h2>
+      <form id="addCourseForm">
+        <div class="form-group">
+          <label for="courseTitle">Course Title *</label>
+          <input type="text" id="courseTitle" required>
+        </div>
+        <div class="form-group">
+          <label for="courseProvider">Provider *</label>
+          <input type="text" id="courseProvider" required>
+        </div>
+        <div class="form-group">
+          <label for="courseCost">Cost (€)</label>
+          <input type="number" id="courseCost" min="0" step="0.01" value="0">
+        </div>
+        <div class="form-group">
+          <label for="courseStatus">Status</label>
+          <select id="courseStatus">
+            <option value="to-do">TO-DO</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
+        <div class="button-group">
+          <button type="button" class="btn btn-secondary" onclick="closeAddCourseModal()">Cancel</button>
+          <button type="submit" class="btn btn-primary">Add Course</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script type="module" src="controller/app.js"></script>
+
+</body>
+</html>
